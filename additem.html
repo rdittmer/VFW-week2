@@ -23,7 +23,7 @@
 			<fieldset id="fieldId">
 				<legend>Add A Bill</legend>
 					
-					<li><label for="billtype">Bill Type:</label><select>
+					<li><label for="billtype" id="billtype">Bill Type:</label><select>
 												<option value="Utilities">Utilities</option>
 												<option value="rent/house">Rent/House</option>
 												<option value="Auto">Auto</option>
@@ -32,13 +32,13 @@
 											 </select></li>
 					<h2>Bill Info:</h2>
 					<li><label for="payto">Pay to:</label><input type="text" id="payto"/></li>
-					<li><label for="payamount">Pay Amount<input type="range" min="1" max="10000" id="payamount"/></li>
+					<li><label for="payamount">Pay Amount:<input type="range" min="1" max="10000" id="payamount"/></li>
 					<li><span>Pay with:</span></li>
 					    <li><input type="radio" name="paytype" id="creditcard"/><label for="creditcard">Credit Card</label></li>
 					    <li><input type="radio" name="paytype" id="bankaccount"/><label for="bankaccount">Bank Account</label></li>
 					    <li><input type="radio" name="paytype" id="check"/><label for="check">Check</label></li>
-					<li><label for="paydate">Pay Date</label><input type="date" id="paydate"/></li>
-					<li><label for="notes">Notes</label><textarea id="notes"></textarea></li>
+					<li><label for="paydate">Pay Date:</label><input type="date" id="paydate"/></li>
+					<li><label for="notes">Notes:</label><textarea id="notes"></textarea></li>
 					
 			</fieldset>
 			<input type="submit">
