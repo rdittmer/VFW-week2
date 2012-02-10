@@ -19,7 +19,7 @@
 	<body>
 		<h1>Monthly Bill Tracker</h1>
 		<p>Fill in the information below and click submit to add the bill to your list of monthly bills.</p>
-		<form action ="#">
+		<form action ="#" method="post" id="billForm">
 			<fieldset id="fieldId">
 				<legend>Add A Bill</legend>
 					
@@ -44,8 +44,9 @@
 			<input type="submit">
 		</form>
 		<nav>
-			<a href="#">Clear stored data</a>
-			<a href="#">Display data</a>
+			<a href="#" id="clear">Clear stored data</a>
+			<a href="#" id="displayData">Display data</a>
+			<a href="#" id="addNew" style="display:none;">Add new bill</a>
 		</nav>
 	</body>
 </html>
